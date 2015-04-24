@@ -30,6 +30,7 @@ module Docker
   require 'docker/util'
   require 'docker/version'
   require 'docker/rake_task' if defined?(Rake::Task)
+  require 'docker/registry'
 
   def default_socket_url
     'unix:///var/run/docker.sock'

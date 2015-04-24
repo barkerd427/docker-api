@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://index.docker.io/v1/repositories/ruby/tags
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Swipely/Docker-API 1.21.2
+      Content-Type:
+      - text/plain
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Fri, 24 Apr 2015 18:10:18 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - close
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000
+    body:
+      encoding: UTF-8
+      string: '[{"layer": "677c52e5", "name": "latest"}, {"layer": "303f2fe8", "name":
+        "1"}, {"layer": "34b77977", "name": "1-onbuild"}, {"layer": "13d6b117", "name":
+        "1-slim"}, {"layer": "66220409", "name": "1-wheezy"}, {"layer": "303f2fe8",
+        "name": "1.9"}, {"layer": "34b77977", "name": "1.9-onbuild"}, {"layer": "13d6b117",
+        "name": "1.9-slim"}, {"layer": "66220409", "name": "1.9-wheezy"}, {"layer":
+        "303f2fe8", "name": "1.9.3"}, {"layer": "34b77977", "name": "1.9.3-onbuild"},
+        {"layer": "17ca105c", "name": "1.9.3-p547"}, {"layer": "be7657b5", "name":
+        "1.9.3-p547-onbuild"}, {"layer": "ee4db498", "name": "1.9.3-p550"}, {"layer":
+        "54d94dbb", "name": "1.9.3-p550-onbuild"}, {"layer": "303f2fe8", "name": "1.9.3-p551"},
+        {"layer": "34b77977", "name": "1.9.3-p551-onbuild"}, {"layer": "13d6b117",
+        "name": "1.9.3-p551-slim"}, {"layer": "66220409", "name": "1.9.3-p551-wheezy"},
+        {"layer": "13d6b117", "name": "1.9.3-slim"}, {"layer": "66220409", "name":
+        "1.9.3-wheezy"}, {"layer": "677c52e5", "name": "2"}, {"layer": "8a6c5da6",
+        "name": "2-onbuild"}, {"layer": "d2980e22", "name": "2-slim"}, {"layer": "2e95d0b5",
+        "name": "2-wheezy"}, {"layer": "e87479b1", "name": "2.0"}, {"layer": "1bd1baae",
+        "name": "2.0-onbuild"}, {"layer": "9a1ec6f6", "name": "2.0-slim"}, {"layer":
+        "5449f716", "name": "2.0-wheezy"}, {"layer": "e87479b1", "name": "2.0.0"},
+        {"layer": "1bd1baae", "name": "2.0.0-onbuild"}, {"layer": "e657cc42", "name":
+        "2.0.0-p576"}, {"layer": "dd2e7748", "name": "2.0.0-p576-onbuild"}, {"layer":
+        "801261a6", "name": "2.0.0-p594"}, {"layer": "d9c51403", "name": "2.0.0-p594-onbuild"},
+        {"layer": "b3c2828f", "name": "2.0.0-p598"}, {"layer": "a64374ad", "name":
+        "2.0.0-p598-onbuild"}, {"layer": "fe5f0ee0", "name": "2.0.0-p598-slim"}, {"layer":
+        "244dbec1", "name": "2.0.0-p598-wheezy"}, {"layer": "91c36d15", "name": "2.0.0-p643"},
+        {"layer": "1ef96c63", "name": "2.0.0-p643-onbuild"}, {"layer": "2a374623",
+        "name": "2.0.0-p643-slim"}, {"layer": "a00408f7", "name": "2.0.0-p643-wheezy"},
+        {"layer": "e87479b1", "name": "2.0.0-p645"}, {"layer": "1bd1baae", "name":
+        "2.0.0-p645-onbuild"}, {"layer": "9a1ec6f6", "name": "2.0.0-p645-slim"}, {"layer":
+        "5449f716", "name": "2.0.0-p645-wheezy"}, {"layer": "9a1ec6f6", "name": "2.0.0-slim"},
+        {"layer": "5449f716", "name": "2.0.0-wheezy"}, {"layer": "efc3be1f", "name":
+        "2.1"}, {"layer": "a4b6189c", "name": "2.1-onbuild"}, {"layer": "653239c2",
+        "name": "2.1-slim"}, {"layer": "6a8900a5", "name": "2.1-wheezy"}, {"layer":
+        "011aa33b", "name": "2.1.1"}, {"layer": "227510c3", "name": "2.1.2"}, {"layer":
+        "0d043d8c", "name": "2.1.2-onbuild"}, {"layer": "c8efc495", "name": "2.1.3"},
+        {"layer": "7928ccb9", "name": "2.1.3-onbuild"}, {"layer": "766162a9", "name":
+        "2.1.4"}, {"layer": "ed6758e0", "name": "2.1.4-onbuild"}, {"layer": "afba1b22",
+        "name": "2.1.5"}, {"layer": "03f0291e", "name": "2.1.5-onbuild"}, {"layer":
+        "8e52dfe6", "name": "2.1.5-slim"}, {"layer": "a16b5ebc", "name": "2.1.5-wheezy"},
+        {"layer": "efc3be1f", "name": "2.1.6"}, {"layer": "a4b6189c", "name": "2.1.6-onbuild"},
+        {"layer": "653239c2", "name": "2.1.6-slim"}, {"layer": "6a8900a5", "name":
+        "2.1.6-wheezy"}, {"layer": "677c52e5", "name": "2.2"}, {"layer": "8a6c5da6",
+        "name": "2.2-onbuild"}, {"layer": "d2980e22", "name": "2.2-slim"}, {"layer":
+        "2e95d0b5", "name": "2.2-wheezy"}, {"layer": "51473a29", "name": "2.2.0"},
+        {"layer": "6bb63f1d", "name": "2.2.0-onbuild"}, {"layer": "e73b9434", "name":
+        "2.2.0-rc1"}, {"layer": "0ecfa925", "name": "2.2.0-rc1-onbuild"}, {"layer":
+        "48817fce", "name": "2.2.0-rc1-wheezy"}, {"layer": "2f8d2a75", "name": "2.2.0-slim"},
+        {"layer": "27c8e4ec", "name": "2.2.0-wheezy"}, {"layer": "ef6e4b7d", "name":
+        "2.2.1"}, {"layer": "d1f33233", "name": "2.2.1-onbuild"}, {"layer": "4c5099a7",
+        "name": "2.2.1-slim"}, {"layer": "89a77316", "name": "2.2.1-wheezy"}, {"layer":
+        "677c52e5", "name": "2.2.2"}, {"layer": "8a6c5da6", "name": "2.2.2-onbuild"},
+        {"layer": "d2980e22", "name": "2.2.2-slim"}, {"layer": "2e95d0b5", "name":
+        "2.2.2-wheezy"}, {"layer": "8a6c5da6", "name": "onbuild"}, {"layer": "d2980e22",
+        "name": "slim"}, {"layer": "2e95d0b5", "name": "wheezy"}]'
+    http_version: 
+  recorded_at: Fri, 24 Apr 2015 18:10:19 GMT
+recorded_with: VCR 2.9.3
